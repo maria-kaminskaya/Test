@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="full_screen_interstitial">Full Screen Interstitial</string>
+    <string name="devise_s_imprint">Devise`s Imprint</string>
+</resources>

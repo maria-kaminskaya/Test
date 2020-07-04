@@ -101,7 +101,9 @@ class MainActivity : AppCompatActivity() {
         val build_fingerprint = Build.FINGERPRINT
         Log.d("MainActivity", "Build.Fingerprint  ${build_fingerprint}")
 
-        return hexString+android_id
+        Toast.makeText(this@MainActivity, "Devises imprint ${android_id} ${hexString} ${build_fingerprint}", Toast.LENGTH_SHORT).show()
+
+        return hexString+android_id+build_fingerprint
 
         }
     }
